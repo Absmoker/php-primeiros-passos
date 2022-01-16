@@ -1,0 +1,7 @@
+Este arquivo de texto serve apenas para eu deixar as minhas impressões das aulas
+
+Como por exemplo, a diferença entre aspas simples e aspas duplas nos tipos de caracteres usados no php
+A aspas simples nos permite trabalhar apenas com textos, se quisermos adicionar alguma variável, temos que fechar com aspas 
+simples e adicionar um ponto, só então podemos adicionar a variável.
+    exemplo: echo 'olá mundo, meu nome é josé, tenho ' . $idade . ' anos'
+O que é bem desconfortável, por isso usamos mais a aspas duplas, que não precisamos dessa sintaxe mais trabalhosa.
