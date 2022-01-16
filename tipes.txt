@@ -27,7 +27,15 @@ CONDICIONAL ELSE
         else{
             <comando>;
         }
+CONDICIONAL ELSE IF
+    É basicamente o mesmo que em C. Se a primeira condição não for satisfeita, ele executará essa em seguida, e dependendo
+    do codigo, executará outros else if em seguida. sua sintaxe é a seguinte:
+        else if(<condição>){
+            <comando>;
+        }
+
 // ObsM: essa linguagem é tão chata quando a C, tem que pôr a porra de um ";" em tudo que é fim de comando...
+
 OPERADORES BOLEANOS
     OPERADOR BOLEANO( or , ||)
         Assim podemos fazer comparações entre duas variaveis e verificar se pelo menos uma delas é verdadeira, assim retornando
