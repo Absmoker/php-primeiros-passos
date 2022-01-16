@@ -13,3 +13,26 @@ usavamos na linguagem C, durante a faculdade.
 O que vi de especial nessa aula agora foi o PHP_EOL, ele é considerado um caractere melhor de certa forma, pois é mais 
 nativo da linguagem, e não entra em conflito com os sistemas operacionais, afinal, no linux a quebra de linha é um simples 
 \n e no windows é um \r\n. Deixando a formatação mais universal assim.
+
+___________________________________________________________________________
+
+CONDICIONAL IF
+    É a mesma coisa que em C. use a seguinte sintaxe:
+        if(condição){
+            <comando>;
+        }
+CONDICIONAL ELSE
+    É a mesma coisa que em C. Se o programa não seguir a condição que você propôs, ele fara isso. Se o programa seguir
+    a sua condição, ele não executará o comando contido nesse codigo. Sua sintaxe é a seguinte:
+        else{
+            <comando>;
+        }
+// ObsM: essa linguagem é tão chata quando a C, tem que pôr a porra de um ";" em tudo que é fim de comando...
+OPERADORES BOLEANOS
+    OPERADOR BOLEANO( or , ||)
+        Assim podemos fazer comparações entre duas variaveis e verificar se pelo menos uma delas é verdadeira, assim retornando
+        um valor verdadeiro.
+
+    OPERADOS BOLEANO (and , &&)
+        Operador boleano que irá retornar verdadeiro se as duas verificações forem verdadeiras.
+
