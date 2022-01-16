@@ -5,3 +5,11 @@ A aspas simples nos permite trabalhar apenas com textos, se quisermos adicionar 
 simples e adicionar um ponto, só então podemos adicionar a variável.
     exemplo: echo 'olá mundo, meu nome é josé, tenho ' . $idade . ' anos'
 O que é bem desconfortável, por isso usamos mais a aspas duplas, que não precisamos dessa sintaxe mais trabalhosa.
+
+--------------------------------------------------------------------------
+
+Agora vimos os tipos de caracteres especiais, um deles é o \t que adiciona o tab. Outro é o \n que eu já estou mais acostumado
+usavamos na linguagem C, durante a faculdade.
+O que vi de especial nessa aula agora foi o PHP_EOL, ele é considerado um caractere melhor de certa forma, pois é mais 
+nativo da linguagem, e não entra em conflito com os sistemas operacionais, afinal, no linux a quebra de linha é um simples 
+\n e no windows é um \r\n. Deixando a formatação mais universal assim.

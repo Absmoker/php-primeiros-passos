@@ -3,8 +3,8 @@
 $idade = 28;
 //$idade +=10 ;
 
-echo $idade;
-echo "\n";
-echo gettype($idade);
+echo $idade . PHP_EOL;
 
-echo "\nolá mundo! Minha idade é: $idade\n";
+echo gettype($idade) . PHP_EOL;
+
+echo "olá mundo! Minha idade é: $idade". PHP_EOL;
