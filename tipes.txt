@@ -34,6 +34,17 @@ CONDICIONAL ELSE IF
             <comando>;
         }
 
+OUTRAS OPÇÕES DE CONDIÇÃO
+
+        $variavel = $condicao ? $valorSeVerdadeiro : $valorSeFalso;
+        ----------------------||---------------------
+        <?php
+        $idade = 15;
+        $mensagem = $idade < 18 ? ‘Você é menor de idade’ : ‘Você é maior de idade’;
+        echo $mensagem;
+
+    Dessa forma podemos verificar sem usar um if/else se a condição é verdadeira ou falsa
+
 // ObsM: essa linguagem é tão chata quando a C, tem que pôr a porra de um ";" em tudo que é fim de comando...
 
 //ObsM: podemos fazer condições sem usar as chaves, mas temos que ter certeza de que o codigo de comando será de apenas
