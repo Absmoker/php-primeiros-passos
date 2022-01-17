@@ -58,7 +58,7 @@ OUTRAS OPÇÕES DE CONDIÇÃO
 
 OPERADORES BOLEANOS
     OPERADOR BOLEANO( or , ||)
-        Assim podemos fazer comparações entre duas variaveis e verificar se pelo menos uma delas é verdadeira, assim retornando
+            Assim podemos fazer comparações entre duas variaveis e verificar se pelo menos uma delas é verdadeira, assim retornando
         um valor verdadeiro.
 
     OPERADOS BOLEANO (and , &&)
@@ -66,7 +66,7 @@ OPERADORES BOLEANOS
 
 REPETIÇÃO
     WHILE
-        Por enquanto é a mesma lógica que em C, uma estrutura de repetição que ira repetir o comando enquanto a condição 
+            Por enquanto é a mesma lógica que em C, uma estrutura de repetição que ira repetir o comando enquanto a condição 
         for verdadeira. Sua sintaxe é a seguinte:
                 
             while(<condição>){
@@ -75,8 +75,13 @@ REPETIÇÃO
                 OBS: acho que podemos ignorar a chave se for apenas um comando.
 
     FOR 
-        Mesma coisa que C, temos um inicializador, que será lido apenas no inicio da repetição, uma condição que será
+            Mesma coisa que C, temos um inicializador, que será lido apenas no inicio da repetição, uma condição que será
         verificada após o incremento final, e o incremento final que será feito antes da verificação da condição. Sua sintaxe é:
             for( <inicializador> ; <condição> ; <incremento-final> ){
                 <comando>;
             }
+
+    CONTINUE / BREAK
+            São estruturas que apenas interagem com estruturas de repetição. A primeira pulará tudo que setá após ela, dentro
+        da estrutura de repetição e seguirá para a próxima verificação. A segunda ira saria da extrutura de repetição, mesmo
+        que a sua condição não tenha sido cumprida, saindo forçadamente da estrutura.
