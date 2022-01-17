@@ -45,12 +45,16 @@ OUTRAS OPÇÕES DE CONDIÇÃO
 
     Dessa forma podemos verificar sem usar um if/else se a condição é verdadeira ou falsa
 
-// ObsM: essa linguagem é tão chata quando a C, tem que pôr a porra de um ";" em tudo que é fim de comando...
+==============================================================================================
 
-//ObsM: podemos fazer condições sem usar as chaves, mas temos que ter certeza de que o codigo de comando será de apenas
-uma linha, pois o PHP irá reconhecer de tal forma. Caso você adicione outo comando naquela condição, o PHP não irá reconhece-lo
-como um comando daquela condição, e executará mesmo que a condição não seja comprida. Isso é se não usar as chaver 
-para fechar a condicional.
+            // ObsM: essa linguagem é tão chata quando a C, tem que pôr a porra de um ";" em tudo que é fim de comando...
+
+            //ObsM: podemos fazer condições sem usar as chaves, mas temos que ter certeza de que o codigo de comando será de apenas
+            uma linha, pois o PHP irá reconhecer de tal forma. Caso você adicione outo comando naquela condição, o PHP não irá reconhece-lo
+            como um comando daquela condição, e executará mesmo que a condição não seja comprida. Isso é se não usar as chaver 
+            para fechar a condicional.
+
+==============================================================================================
 
 OPERADORES BOLEANOS
     OPERADOR BOLEANO( or , ||)
@@ -60,3 +64,14 @@ OPERADORES BOLEANOS
     OPERADOS BOLEANO (and , &&)
         Operador boleano que irá retornar verdadeiro se as duas verificações forem verdadeiras.
 
+REPETIÇÃO
+    WHILE
+            Por enquanto é a mesma lógica que em C, uma estrutura de repetição que ira repetir o comando enquanto a condição 
+            for verdadeira. Sua sintaxe é a seguinte:
+                
+                while(<condição>){
+                    <comando>
+                }
+                     OBS: acho que podemos ignorar a chave se for apenas um comando.
+
+    
