@@ -22,8 +22,14 @@
 // }
 // echo PHP_EOL;
 
-$contadorI = 1;
-while($contadorI <= 15){
-    echo "$contadorI" . PHP_EOL;
-    $contadorI +=1;
-}
+// $contadorI = 1;
+// while($contadorI <= 15){
+//     echo "$contadorI" . PHP_EOL;
+//     $contadorI +=1;
+// }
+
+// echo PHP_EOL;
+
+// for ($contadorI = 1; $contadorI<=15; $contadorI++){
+//     echo "#$contadorI" . PHP_EOL;
+// }
