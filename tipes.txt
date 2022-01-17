@@ -66,12 +66,17 @@ OPERADORES BOLEANOS
 
 REPETIÇÃO
     WHILE
-            Por enquanto é a mesma lógica que em C, uma estrutura de repetição que ira repetir o comando enquanto a condição 
-            for verdadeira. Sua sintaxe é a seguinte:
+        Por enquanto é a mesma lógica que em C, uma estrutura de repetição que ira repetir o comando enquanto a condição 
+        for verdadeira. Sua sintaxe é a seguinte:
                 
-                while(<condição>){
-                    <comando>
-                }
-                     OBS: acho que podemos ignorar a chave se for apenas um comando.
+            while(<condição>){
+                <comando>
+            }
+                OBS: acho que podemos ignorar a chave se for apenas um comando.
 
-    
+    FOR 
+        Mesma coisa que C, temos um inicializador, que será lido apenas no inicio da repetição, uma condição que será
+        verificada após o incremento final, e o incremento final que será feito antes da verificação da condição. Sua sintaxe é:
+            for( <inicializador> ; <condição> ; <incremento-final> ){
+                <comando>;
+            }
